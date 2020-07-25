@@ -1,3 +1,4 @@
+import pytest
 import requests
 
 def test_duckduckgo_instant_answer_search():
@@ -16,3 +17,9 @@ def test_duckduckgo_instant_answer_search():
     assert "MacBook" in body["AbstractText"]
     assert "Wikipedia" in body["AbstractSource"]
     assert "https://en.wikipedia.org/wiki/MacBook" in body ["AbstractURL"]
+
+
+if __name__ == '__main__':
+    pytest.main()
+
+    print("Program - End")
