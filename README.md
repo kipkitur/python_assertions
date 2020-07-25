@@ -23,7 +23,17 @@ To install the necessary packages using **PyCharm** (on **Windows 10**):
 5. Type in **selenium** and click on **Install Package**.
 6. Type in **pytest** and click on **Install Package**.
 7. Close Packages and Settings windows.
+ 
 
 Make sure you have the packages installed otherwise you won't be able to import the modules and run your tests.
+
+Edit your Run/Debug configurations so that you canuse pytest to run your assertion tests. Click on the **+** icon and select "pytest" under "Python tests". Make sure that you change the target for your script path. It should be the path to the python file that you want to test.
+
+![RUN/DEBUG CONFIGURATIONS IN PYCHARM](screenshots/assert3.png)
+
+
+If your test has passed, you will get a message on the console similar to the one below:
+
+![TEST PASSED](screenshots/assert4.png)
 
 You can run your test via terminal. Type **pytest -v filename** or **pytest -v** to run all other tests you have in the folder.
