@@ -29,11 +29,11 @@ Make sure you have the packages installed otherwise you won't be able to import 
 
 Edit your Run/Debug configurations so that you canuse pytest to run your assertion tests. Click on the **+** icon and select "pytest" under "Python tests". Make sure that you change the target for your script path. It should be the path to the python file that you want to test.
 
-![RUN/DEBUG CONFIGURATIONS IN PYCHARM](screenshots/assert3.png)
+![RUN/DEBUG CONFIGURATIONS IN PYCHARM](screenshots/assert3.PNG)
 
 
 If your test has passed, you will get a message on the console similar to the one below:
 
-![TEST PASSED](screenshots/assert4.png)
+![TEST PASSED](screenshots/assert4.PNG)
 
 You can run your test via terminal. Type **pytest -v filename** or **pytest -v** to run all other tests you have in the folder.
