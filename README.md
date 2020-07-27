@@ -3,18 +3,21 @@ HOW TO WRITE GOOD TESTS:
 
 I came across the **AAA** (Arrange/Act/Assert) pattern that is used to write unit tests. It ensures a tester writes good tests. I will use it to write an assertion expected outcomes test from DuckDuckGo instant answer API.
 
-Arrange (inputs and targets)
+*Arrange (inputs and targets):*
+
 Does the test require any objects or special settings (e.g. variables)
 Does it need to prep a database
 Does it need to login to a webapp
 Endpoint URL (base URL & query parameters)
 
-Act (on the target behavior)
+*Act (on the target behavior):*
+
 Call on a function/method (call a function using a variable and store the return value in a variable)
 Call on a REST API
 Interacting with a web page
 
-Assert (expected outcomes)
+*Assert (expected outcomes):*
+
 Should elicit some sort of response that determines if the test passes or fails
 
 PYTHON TEST FRAMEWORKS (pytest, pytest-bdd)
