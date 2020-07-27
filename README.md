@@ -29,6 +29,8 @@ Please update it according to your version of Google Chrome installed on your ma
 
 I am using the [DuckDuckGo instant answer API](https://api.duckduckgo.com/?q=) to search for products like MacBook, iPhone etc. 
 
+Here is a [link](https://github.com/kipkitur/python_assertions/blob/main/test_duckduckgo_api_request_macbook.py) to the script.
+
 **Environment setup:**
 
 Please make sure you have **Python** installed [link](https://www.python.org/downloads/)
@@ -48,7 +50,7 @@ To install the necessary packages using **PyCharm** (on **Windows 10**):
 
 Make sure you have the packages installed otherwise you won't be able to import the modules and run your tests.
 
-Edit your Run/Debug configurations so that you canuse pytest to run your assertion tests. Click on the **+** icon and select "pytest" under "Python tests". Make sure that you change the target for your script path. It should be the path to the python file that you want to test.
+Edit your Run/Debug configurations so that you can use pytest to run your assertion tests. Click on the **+** icon and select "pytest" under "Python tests". Make sure that you change the target for your script path. It should be the path to the python file that you want to test.
 
 ![RUN/DEBUG CONFIGURATIONS IN PYCHARM](screenshots/assert3.PNG)
 
